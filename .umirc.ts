@@ -1,7 +1,6 @@
 import { defineConfig } from 'umi';
 
 export default defineConfig({
-  base: '/bitcoin-playground/',
   publicPath: "/bitcoin-playground/",
   history: { type: 'hash' },
   nodeModulesTransform: {
