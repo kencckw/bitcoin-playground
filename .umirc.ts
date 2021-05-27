@@ -2,6 +2,7 @@ import { defineConfig } from 'umi';
 
 export default defineConfig({
   base: '/bitcoin-playground',
+  publicPath: "https://kencckw.github.io/bitcoin-playground/",
   nodeModulesTransform: {
     type: 'none',
   },
