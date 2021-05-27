@@ -1,8 +1,9 @@
 import { defineConfig } from 'umi';
 
 export default defineConfig({
-  base: '/bitcoin-playground',
-  publicPath: "/bitcoin-playground",
+  base: '/bitcoin-playground/',
+  publicPath: "/bitcoin-playground/",
+  history: { type: 'hash' },
   nodeModulesTransform: {
     type: 'none',
   },
@@ -14,6 +15,7 @@ export default defineConfig({
         { path: '/hd', component: '@/pages/hd' },
         { path: '/mw', component: '@/pages/mw' },
         { path: '/ms', component: '@/pages/ms' },
+        { path: '*', redirect: '/hd' },
       ],
     },
   ],
