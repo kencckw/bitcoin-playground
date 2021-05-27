@@ -25,7 +25,7 @@
     "@umijs/plugin-antd": "^0.9.1",
     "@umijs/renderer-react": "^3.4.21",
     "ahooks": "^2.10.4",
-    "antd": "^4.15.5",
+    "antd": "^4.16.0",
     "bip39": "^3.0.4",
     "bitcoinjs-lib": "^5.2.0",
     "umi": "^3.4.22",
