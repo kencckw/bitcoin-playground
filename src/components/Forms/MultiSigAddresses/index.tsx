@@ -52,6 +52,7 @@ export const MultiSigAddressesForm: FC<IMultiSigAddressesFormProps> = ({
                     key={key}
                     name={[name, 'value']}
                     fieldKey={[fieldKey, 'value']}
+                    label={`Public Key ${key + 1}`}
                     rules={getPublicKeyValidationRules(key)}
                   >
                     <Input onChange={onPublicKeyChanged(key)} />
