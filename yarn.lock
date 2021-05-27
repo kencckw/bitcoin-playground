@@ -1087,15 +1087,15 @@
     "@umijs/runtime" "3.4.22"
     react-router-config "5.1.1"
 
-"@umijs/renderer-react@^3.4.21":
-  version "3.4.21"
-  resolved "https://registry.yarnpkg.com/@umijs/renderer-react/-/renderer-react-3.4.21.tgz#ad4047fa14e9e47ebdb1e9473adabb713ce79968"
-  integrity sha512-XrLFIQoy3LICx6VGrA1B55gzsd7DHSSCrEQFuGuvshFJp/6hBWcM3revHvfoI/NXvjayqS2yb9LurZNgLvrsPQ==
+"@umijs/renderer-react@^3.4.22":
+  version "3.4.22"
+  resolved "https://registry.yarnpkg.com/@umijs/renderer-react/-/renderer-react-3.4.22.tgz#5217fb67a976d0fe61ebfad0cb5bd24f52f9ffce"
+  integrity sha512-dZX1YvRjTo8nPZJmVNDsCKBlG37Yo0yCjlPETDa8FxNeIlppI0b6LKURyzrpnlcyPGxLekEHsIBEMuNEU2IOSg==
   dependencies:
     "@types/react" "^16.9.43"
     "@types/react-dom" "^16.9.8"
     "@types/react-router-config" "^5.0.2"
-    "@umijs/runtime" "3.4.21"
+    "@umijs/runtime" "3.4.22"
     react-router-config "5.1.1"
 
 "@umijs/runtime@3.4.21":
