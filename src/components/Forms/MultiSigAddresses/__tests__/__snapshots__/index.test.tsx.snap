@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="ant-row ant-row-center ant-row-top"
+  style={
+    Object {
+      "paddingTop": 12,
+    }
+  }
+>
+  <div
+    className="ant-col ant-col-sm-24 ant-col-lg-16 ant-col-xl-12"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="ant-card ant-card-bordered"
+      style={
+        Object {
+          "minHeight": 650,
+        }
+      }
+    >
+      <div
+        className="ant-card-body"
+        style={Object {}}
+      >
+        <form
+          className="ant-form ant-form-horizontal"
+          onReset={[Function]}
+          onSubmit={[Function]}
+        >
+          <div
+            className="ant-page-header ant-page-header-ghost"
+            style={
+              Object {
+                "paddingLeft": 0,
+              }
+            }
+          >
+            <div
+              className="ant-page-header-heading"
+            >
+              <div
+                className="ant-page-header-heading-left"
+              >
+                <span
+                  className="ant-page-header-heading-title"
+                  title="Multi-sig P2SH Bitcoin Address"
+                >
+                  Multi-sig P2SH Bitcoin Address
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="ant-row ant-form-item"
+            style={Object {}}
+          >
+            <div
+              className="ant-col ant-form-item-label"
+              style={Object {}}
+            >
+              <label
+                className=""
+                htmlFor="address"
+                title="Generated address"
+              >
+                Generated address
+              </label>
+            </div>
+            <div
+              className="ant-col ant-form-item-control"
+              style={Object {}}
+            >
+              <div
+                className="ant-form-item-control-input"
+              >
+                <div
+                  className="ant-form-item-control-input-content"
+                >
+                  <input
+                    className="ant-input ant-input-disabled"
+                    disabled={true}
+                    id="address"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="ant-row ant-form-item"
+            style={Object {}}
+          >
+            <div
+              className="ant-col ant-form-item-label"
+              style={Object {}}
+            >
+              <label
+                className=""
+                htmlFor="n"
+                title="n"
+              >
+                n
+              </label>
+            </div>
+            <div
+              className="ant-col ant-form-item-control"
+              style={Object {}}
+            >
+              <div
+                className="ant-form-item-control-input"
+              >
+                <div
+                  className="ant-form-item-control-input-content"
+                >
+                  <input
+                    autoComplete="off"
+                    className="ant-input"
+                    id="n"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="ant-row ant-form-item"
+            style={Object {}}
+          >
+            <div
+              className="ant-col ant-form-item-label"
+              style={Object {}}
+            >
+              <label
+                className=""
+                htmlFor="m"
+                title="m"
+              >
+                m
+              </label>
+            </div>
+            <div
+              className="ant-col ant-form-item-control"
+              style={Object {}}
+            >
+              <div
+                className="ant-form-item-control-input"
+              >
+                <div
+                  className="ant-form-item-control-input-content"
+                >
+                  <input
+                    autoComplete="off"
+                    className="ant-input"
+                    id="m"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

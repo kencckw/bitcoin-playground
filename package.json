@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "analyze": "ANALYZE=1 umi build",
+    "postinstall": "umi generate tmp",
+    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
+    "test": "umi-test",
+    "test:ci": "umi-test --coverage --ci"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@umijs/plugin-antd": "^0.9.1",
+    "@umijs/renderer-react": "^3.4.21",
+    "ahooks": "^2.10.4",
+    "antd": "^4.15.5",
+    "bip39": "^3.0.4",
+    "bitcoinjs-lib": "^5.2.0",
+    "umi": "^3.4.20",
+    "react": "17.x",
+    "react-dom": "17.x"
+  },
+  "devDependencies": {
+    "react-test-renderer": "^17.0.2",
+    "@types/react-test-renderer": "^17.0.1",
+    "@types/jest": "^26.0.23",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@umijs/test": "^3.4.20",
+    "lint-staged": "^10.0.7",
+    "prettier": "^2.2.0",
+    "typescript": "^4.1.2",
+    "yorkie": "^2.0.0"
+  }
+}

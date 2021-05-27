@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="ant-row ant-row-center ant-row-top"
+  style={
+    Object {
+      "paddingTop": 12,
+    }
+  }
+>
+  <div
+    className="ant-col ant-col-sm-24 ant-col-lg-16 ant-col-xl-12"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="ant-card ant-card-bordered"
+      style={
+        Object {
+          "minHeight": 650,
+        }
+      }
+    >
+      <div
+        className="ant-card-body"
+        style={Object {}}
+      />
+    </div>
+  </div>
+</div>
+`;

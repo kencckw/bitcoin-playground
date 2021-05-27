@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="ant-page-header ant-page-header-ghost"
+>
+  <div
+    className="ant-page-header-heading"
+  >
+    <div
+      className="ant-page-header-heading-left"
+    >
+      <span
+        className="ant-avatar ant-avatar-circle"
+        style={Object {}}
+      >
+        <span
+          className="ant-avatar-string"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+        />
+      </span>
+      <span
+        className="ant-page-header-heading-title"
+        title="Bitcoin Playground"
+      >
+        Bitcoin Playground
+      </span>
+    </div>
+    <span
+      className="ant-page-header-heading-extra"
+    >
+      <button
+        className="ant-btn ant-btn-lg"
+        onClick={[Function]}
+        to="/mw"
+        type="button"
+      >
+        <span
+          aria-label="font-size"
+          className="anticon anticon-font-size"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="font-size"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M920 416H616c-4.4 0-8 3.6-8 8v112c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8v-56h60v320h-46c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h164c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8h-46V480h60v56c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V424c0-4.4-3.6-8-8-8zM656 296V168c0-4.4-3.6-8-8-8H104c-4.4 0-8 3.6-8 8v128c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-64h168v560h-92c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h264c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8h-92V232h168v64c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8z"
+            />
+          </svg>
+        </span>
+        <span>
+          Mnemonic Words
+        </span>
+      </button>
+      <button
+        className="ant-btn ant-btn-lg"
+        onClick={[Function]}
+        to="/hd"
+        type="button"
+      >
+        <span
+          aria-label="wallet"
+          className="anticon anticon-wallet"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="wallet"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-40 464H528V448h312v128zm0 264H184V184h656v200H496c-17.7 0-32 14.3-32 32v192c0 17.7 14.3 32 32 32h344v200zM580 512a40 40 0 1080 0 40 40 0 10-80 0z"
+            />
+          </svg>
+        </span>
+        <span>
+          HD Wallets
+        </span>
+      </button>
+      <button
+        className="ant-btn ant-btn-lg"
+        onClick={[Function]}
+        to="/ms"
+        type="button"
+      >
+        <span
+          aria-label="home"
+          className="anticon anticon-home"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="home"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 00-44.4 0L77.5 505a63.9 63.9 0 00-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0018.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z"
+            />
+          </svg>
+        </span>
+        <span>
+          Multi-sig Addresses
+        </span>
+      </button>
+      <button
+        className="ant-btn ant-btn-ghost ant-btn-circle ant-btn-lg ant-btn-icon-only"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          aria-label="github"
+          className="anticon anticon-github"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="github"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0138.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"
+            />
+          </svg>
+        </span>
+      </button>
+    </span>
+  </div>
+</div>
+`;

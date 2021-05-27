@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="ant-row ant-row-center ant-row-top"
+  style={
+    Object {
+      "paddingTop": 12,
+    }
+  }
+>
+  <div
+    className="ant-col ant-col-sm-24 ant-col-lg-16 ant-col-xl-12"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="ant-card ant-card-bordered"
+      style={
+        Object {
+          "minHeight": 650,
+        }
+      }
+    >
+      <div
+        className="ant-card-body"
+        style={Object {}}
+      >
+        <form
+          className="ant-form ant-form-horizontal"
+          onReset={[Function]}
+          onSubmit={[Function]}
+        >
+          <div
+            className="ant-page-header ant-page-header-ghost"
+            style={
+              Object {
+                "paddingLeft": 0,
+              }
+            }
+          >
+            <div
+              className="ant-page-header-heading"
+            >
+              <div
+                className="ant-page-header-heading-left"
+              >
+                <span
+                  className="ant-page-header-heading-title"
+                  title="HD SegWit Bitcoin Addresses"
+                >
+                  HD SegWit Bitcoin Addresses
+                </span>
+                <span
+                  className="ant-page-header-heading-sub-title"
+                  title="Generate multiple addresses"
+                >
+                  Generate multiple addresses
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="ant-row ant-form-item"
+            style={Object {}}
+          >
+            <div
+              className="ant-col ant-form-item-label"
+              style={Object {}}
+            >
+              <label
+                className=""
+                htmlFor="seed"
+                title="Seed"
+              >
+                Seed
+              </label>
+            </div>
+            <div
+              className="ant-col ant-form-item-control"
+              style={Object {}}
+            >
+              <div
+                className="ant-form-item-control-input"
+              >
+                <div
+                  className="ant-form-item-control-input-content"
+                >
+                  <textarea
+                    autoComplete="off"
+                    className="ant-input"
+                    id="seed"
+                    onChange={[Function]}
+                    onCompositionEnd={[Function]}
+                    onCompositionStart={[Function]}
+                    onKeyDown={[Function]}
+                    style={Object {}}
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="ant-row ant-form-item"
+            style={Object {}}
+          >
+            <div
+              className="ant-col ant-form-item-control"
+              style={Object {}}
+            >
+              <div
+                className="ant-form-item-control-input"
+              >
+                <div
+                  className="ant-form-item-control-input-content"
+                >
+                  <button
+                    className="ant-btn ant-btn-dashed ant-btn-block"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <span
+                      aria-label="plus"
+                      className="anticon anticon-plus"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="plus"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <defs>
+                          <style />
+                        </defs>
+                        <path
+                          d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                        />
+                        <path
+                          d="M176 474h672q8 0 8 8v60q0 8-8 8H176q-8 0-8-8v-60q0-8 8-8z"
+                        />
+                      </svg>
+                    </span>
+                    <span>
+                      Add Address
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
