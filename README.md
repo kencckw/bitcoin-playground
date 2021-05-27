@@ -1,6 +1,7 @@
 # Bitcoin Playground
 
-[code coverage badge] [circle badge]
+[![Coverage Status](https://coveralls.io/repos/github/kencckw/bitcoin-playground/badge.svg?branch=master)](https://coveralls.io/github/kencckw/bitcoin-playground?branch=master)
+![example branch parameter](https://github.com/kencckw/bitcoin-playground/actions/workflows/deploy.yml/badge.svg)
 
 ## Dependencies
 
@@ -15,7 +16,7 @@
 
 ## Demo page
 
-TODO: github.io
+https://kencckw.github.io/bitcoin-playground/
 
 ## Getting Started
 
@@ -37,7 +38,6 @@ $ yarn test
 
 #### Security
 
-1. autocomplete disabled 
+1. disable autocomplete  
 2. Password field for sensitive data
 3. dependentbot
-4. use crypto randomByte to generate seed to make it more 
