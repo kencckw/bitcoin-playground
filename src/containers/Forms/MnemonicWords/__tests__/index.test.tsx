@@ -68,17 +68,17 @@ describe('MnemonicWordsFormContainer', () => {
     expect(message.error).toBeCalled();
   });
 
-  it('mnemonicWordsValidationRules', () => {
+  it('mnemonicWordsValidationRules', async () => {
     let validator = props.mnemonicWordsValidationRules[1].validator;
-    expect(validator([], '123')).rejects.toBe(
+    await expect(validator([], '123')).rejects.toThrow(
       'You must enter a valid mnemonic words',
     );
 
-    expect(
+    await expect(
       validator(
         [],
         'length adjust brass diet six weird final recipe spy bean apart want',
       ),
-    ).rejects.toBe('You must enter a valid mnemonic words');
+    ).resolves.toBe(undefined);
   });
 });
