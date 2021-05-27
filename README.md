@@ -1,7 +1,8 @@
 # Bitcoin Playground
 
+![Deploy](https://github.com/kencckw/bitcoin-playground/actions/workflows/deploy.yml/badge.svg)
+![Test](https://github.com/kencckw/bitcoin-playground/actions/workflows/main.yml/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/kencckw/bitcoin-playground/badge.svg?branch=master)](https://coveralls.io/github/kencckw/bitcoin-playground?branch=master)
-![example branch parameter](https://github.com/kencckw/bitcoin-playground/actions/workflows/deploy.yml/badge.svg)
 
 ## Dependencies
 
