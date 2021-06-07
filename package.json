@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
-    "@umijs/plugin-antd": "^0.9.2",
+    "@umijs/plugin-antd": "^0.10.0",
     "@umijs/renderer-react": "^3.4.25",
     "ahooks": "^2.10.5",
     "antd": "^4.16.1",
