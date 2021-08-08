@@ -1108,21 +1108,21 @@
     "@umijs/runtime" "3.5.15"
     react-router-config "5.1.1"
 
-"@umijs/renderer-react@^3.5.13":
-  version "3.5.13"
-  resolved "https://registry.yarnpkg.com/@umijs/renderer-react/-/renderer-react-3.5.13.tgz#5ffa2b6f2c2a97dd07172477ee5c13d0981fb7cc"
-  integrity sha512-0aTc2XLBsA2fhejvV0AuCMwq1xnlhaHWajfvGc4vUE6E54CpX9QBtdu3DGxUcVtEvVbNitCbIiwyvX4vHiqLNg==
+"@umijs/renderer-react@^3.5.15":
+  version "3.5.15"
+  resolved "https://registry.yarnpkg.com/@umijs/renderer-react/-/renderer-react-3.5.15.tgz#d154aa48f547638abd76190426ab043c8fdadf7c"
+  integrity sha512-0bZH2K4t7Q/YfvRskmBemn0CiPUD0+VPbdCVnBK9dYO4WsHPBbsgM0eHF71a3MCi59SFL5RHbgKQGjS8ePXwJA==
   dependencies:
     "@types/react" "^16.9.43"
     "@types/react-dom" "^16.9.8"
     "@types/react-router-config" "^5.0.2"
-    "@umijs/runtime" "3.5.13"
+    "@umijs/runtime" "3.5.15"
     react-router-config "5.1.1"
 
-"@umijs/runtime@3.5.13":
-  version "3.5.13"
-  resolved "https://registry.yarnpkg.com/@umijs/runtime/-/runtime-3.5.13.tgz#fd37279cad39e0f953bd982d3bb3ffb221b701e3"
-  integrity sha512-uZ1u42/D/KQWVGlknf0RbpvhjXi0tCd9/gRBBvkI3GSfyt7M/ChAS1p8zJQ4NDWwl/FYb44UMCoiKD8TTjtYvQ==
+"@umijs/runtime@3.5.14":
+  version "3.5.14"
+  resolved "https://registry.yarnpkg.com/@umijs/runtime/-/runtime-3.5.14.tgz#0ce79f689f4b3ff6768156b481343b44250188e1"
+  integrity sha512-H2Sy3Ram8FwqI0eun7CuNyyo/QYDDqx0ohKYusqdtuNjkotdr2PLGD15qbsI382gk6PfmsXWbZMsgzutpetrZA==
   dependencies:
     "@types/react-router" "5.1.12"
     "@types/react-router-dom" "5.1.7"
