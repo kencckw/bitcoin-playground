@@ -1062,7 +1062,7 @@
     "@types/react-dom" "^16.9.8"
     "@umijs/runtime" "3.5.17"
 
-"@umijs/renderer-react@3.5.17":
+"@umijs/renderer-react@3.5.17", "@umijs/renderer-react@^3.5.17":
   version "3.5.17"
   resolved "https://registry.yarnpkg.com/@umijs/renderer-react/-/renderer-react-3.5.17.tgz#2330a63c6566db4359ec2ea2a3ad66a829500bd9"
   integrity sha512-IoHPF8bIQwkRqNcOrpdymreOAJJgAbxdUzk6wjUi5sqt+CDvzG6vcneD1MublDlGnMyYSR+FlL2Kj7lKMTDv0A==
@@ -1072,29 +1072,6 @@
     "@types/react-router-config" "^5.0.2"
     "@umijs/runtime" "3.5.17"
     react-router-config "5.1.1"
-
-"@umijs/renderer-react@^3.5.15":
-  version "3.5.15"
-  resolved "https://registry.yarnpkg.com/@umijs/renderer-react/-/renderer-react-3.5.15.tgz#d154aa48f547638abd76190426ab043c8fdadf7c"
-  integrity sha512-0bZH2K4t7Q/YfvRskmBemn0CiPUD0+VPbdCVnBK9dYO4WsHPBbsgM0eHF71a3MCi59SFL5RHbgKQGjS8ePXwJA==
-  dependencies:
-    "@types/react" "^16.9.43"
-    "@types/react-dom" "^16.9.8"
-    "@types/react-router-config" "^5.0.2"
-    "@umijs/runtime" "3.5.15"
-    react-router-config "5.1.1"
-
-"@umijs/runtime@3.5.15":
-  version "3.5.15"
-  resolved "https://registry.yarnpkg.com/@umijs/runtime/-/runtime-3.5.15.tgz#669d72d34d618a52c011013a21e50b7e41959283"
-  integrity sha512-B3KMzidlvjYaHWfyOXP8fSX/yr4X3uMEJcx6JDy1NcHtmHA0J0xWhzm2/ymcd6hvV441XPRhlADSaXJFDUO1Zw==
-  dependencies:
-    "@types/react-router" "5.1.12"
-    "@types/react-router-dom" "5.1.7"
-    history-with-query "4.10.4"
-    react-router "5.2.0"
-    react-router-dom "5.2.0"
-    use-subscription "1.5.1"
 
 "@umijs/runtime@3.5.17":
   version "3.5.17"
