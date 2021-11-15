@@ -1014,10 +1014,10 @@
     jest-worker "24.9.0"
     prettier "2.2.1"
 
-"@umijs/plugin-antd@^0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@umijs/plugin-antd/-/plugin-antd-0.11.0.tgz#f2f952bd433607847f1b73cd42a0780bb7e2f04d"
-  integrity sha512-zpBSVMlU2z7PpYeDLhorgG1sXWyzus0t+g75wZVJqLIXKdQDjJZRTbKPwLnCYdmgh/MUYAEJmT39IHfnF1MQ5A==
+"@umijs/plugin-antd@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@umijs/plugin-antd/-/plugin-antd-0.12.0.tgz#770b2d853e542ea241315ae6b5c6b7ffae1a2528"
+  integrity sha512-aCmcLojgU/uBHwIKfnIKs7sMM55hQAhb191qioVvWXlj2KJhLXsusPC9zD7Uy4Wop8BZ79MKU6wPd8IfgYWsnw==
   dependencies:
     antd "^4.1.3"
     antd-mobile "^2.3.1"
