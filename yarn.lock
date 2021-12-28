@@ -1167,11 +1167,17 @@ aggregate-error@^3.0.0:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
 
-ahooks@^3.0.5:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/ahooks/-/ahooks-3.0.5.tgz#7cf1a057ae147ac02732c3eddb00a793006df9d6"
-  integrity sha512-/l8HoNPzJVoexChfw7zlRD1/VyX1X7F08AVNnwkRwgufu1AfUd96XcIStrRsmADqMQWllluLRodEzPbcKUGUzQ==
+ahooks-v3-count@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ahooks-v3-count/-/ahooks-v3-count-1.0.0.tgz#ddeb392e009ad6e748905b3cbf63a9fd8262ca80"
+  integrity sha512-V7uUvAwnimu6eh/PED4mCDjE7tokeZQLKlxg9lCTMPhN+NjsSbtdacByVlR1oluXQzD3MOw55wylDmQo4+S9ZQ==
+
+ahooks@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/ahooks/-/ahooks-3.1.2.tgz#3241f40b874c28c95a15b7af5db974065567a733"
+  integrity sha512-oSLXvYVrzgG/DyGM4IxI6zQsdsG0WRU1y5XhTByaxVSlrOon9Q4BnSKmT5VtiI7FMzANI5BJ4V3Ks1phKSa74w==
   dependencies:
+    ahooks-v3-count "^1.0.0"
     dayjs "^1.9.1"
     intersection-observer "^0.12.0"
     js-cookie "^3.0.0"
