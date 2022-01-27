@@ -24,7 +24,7 @@
     "@ant-design/icons": "^4.7.0",
     "@umijs/plugin-antd": "^0.15.0",
     "@umijs/renderer-react": "^3.5.20",
-    "ahooks": "^3.1.7",
+    "ahooks": "^3.1.9",
     "antd": "^4.18.1",
     "bip39": "^3.0.4",
     "bitcoinjs-lib": "^5.2.0",
