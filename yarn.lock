@@ -748,6 +748,11 @@
     jest-diff "^27.0.0"
     pretty-format "^27.0.0"
 
+"@types/js-cookie@^2.x.x":
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/@types/js-cookie/-/js-cookie-2.2.7.tgz#226a9e31680835a6188e887f3988e60c04d3f6a3"
+  integrity sha512-aLkWa0C0vO5b4Sr798E26QgOkss68Un0bLjs7u9qxzPT5CG+8DuNTffWES58YzJs3hrVAOs1wonycqEBqNJubA==
+
 "@types/json-schema@^7.0.8":
   version "7.0.8"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.8.tgz#edf1bf1dbf4e04413ca8e5b17b3b7d7d54b59818"
@@ -1172,11 +1177,12 @@ ahooks-v3-count@^1.0.0:
   resolved "https://registry.yarnpkg.com/ahooks-v3-count/-/ahooks-v3-count-1.0.0.tgz#ddeb392e009ad6e748905b3cbf63a9fd8262ca80"
   integrity sha512-V7uUvAwnimu6eh/PED4mCDjE7tokeZQLKlxg9lCTMPhN+NjsSbtdacByVlR1oluXQzD3MOw55wylDmQo4+S9ZQ==
 
-ahooks@^3.1.7:
-  version "3.1.7"
-  resolved "https://registry.yarnpkg.com/ahooks/-/ahooks-3.1.7.tgz#e5a7096608e2d82f74eaaf9bb038a81fc097a825"
-  integrity sha512-H+5LCbOXs7rpHkegiBApGgI6U/Ute8P93elU+bGsgdXkUsElJjYuEmWY6RujSr/IkV/dskFb7iptce3tLbYxng==
+ahooks@^3.1.11:
+  version "3.1.11"
+  resolved "https://registry.yarnpkg.com/ahooks/-/ahooks-3.1.11.tgz#399598fccd98af3135458508fc83b41e9660bc4a"
+  integrity sha512-uKlAzlZoPmFaxIeRJ82xe7WcmfgCwypBFA5rWZp7pSJATUsg/HhhLHuevTWSM3reheShMJeV3K8/E/ANgc2sKg==
   dependencies:
+    "@types/js-cookie" "^2.x.x"
     ahooks-v3-count "^1.0.0"
     dayjs "^1.9.1"
     intersection-observer "^0.12.0"
