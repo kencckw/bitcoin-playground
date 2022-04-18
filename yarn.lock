@@ -1113,21 +1113,21 @@
     "@umijs/runtime" "3.5.21"
     react-router-config "5.1.1"
 
-"@umijs/renderer-react@^3.5.20":
-  version "3.5.20"
-  resolved "https://registry.yarnpkg.com/@umijs/renderer-react/-/renderer-react-3.5.20.tgz#50d17b1f63a6bf292d1891b9e9eca729ea58a57d"
-  integrity sha512-8ZEHxMmF0Rm5il9RjTbzn4DLd7FU8KkqAwRGcpNhMcsPxXkbieTfnQC+a0D7nvor0+vakygfCG7ZgXDkcO1W0Q==
+"@umijs/renderer-react@^3.5.23":
+  version "3.5.23"
+  resolved "https://registry.yarnpkg.com/@umijs/renderer-react/-/renderer-react-3.5.23.tgz#bbed637151694f7c2f590ea0481550253f6a0870"
+  integrity sha512-7XSBbeMykdvIZd8MHWeRrLPZU+kkxaEHtPrTP++xd2sxH+0dLLcf+5Ze9sUuBfgZFylMT2ULxikBceOL2fgttw==
   dependencies:
     "@types/react" "^16.9.43"
     "@types/react-dom" "^16.9.8"
     "@types/react-router-config" "^5.0.2"
-    "@umijs/runtime" "3.5.20"
+    "@umijs/runtime" "3.5.23"
     react-router-config "5.1.1"
 
-"@umijs/runtime@3.5.20":
-  version "3.5.20"
-  resolved "https://registry.yarnpkg.com/@umijs/runtime/-/runtime-3.5.20.tgz#d93adc55c9babe8e36638538146faef9aec87551"
-  integrity sha512-AADBzjzbydjMBpaA9nw1vNsaBA7YoUTV45tmUAf47Mn3sPlEknbUFOPryhZEsOFfkBvag7GysRNzgCJPxYiWIQ==
+"@umijs/runtime@3.5.21":
+  version "3.5.21"
+  resolved "https://registry.yarnpkg.com/@umijs/runtime/-/runtime-3.5.21.tgz#ae160653f89766c6360283dc01ff46aae86b930d"
+  integrity sha512-U5VOVWxp7kS92i2SsjGMemvLegoyCH1YhWhIJYIX2XM9IXP94+UCVJEHPRdytC4p5hun6thrGFec72ZPluwYaA==
   dependencies:
     "@types/react-router" "5.1.12"
     "@types/react-router-dom" "5.1.7"
@@ -1136,10 +1136,10 @@
     react-router-dom "5.2.0"
     use-subscription "1.5.1"
 
-"@umijs/runtime@3.5.21":
-  version "3.5.21"
-  resolved "https://registry.yarnpkg.com/@umijs/runtime/-/runtime-3.5.21.tgz#ae160653f89766c6360283dc01ff46aae86b930d"
-  integrity sha512-U5VOVWxp7kS92i2SsjGMemvLegoyCH1YhWhIJYIX2XM9IXP94+UCVJEHPRdytC4p5hun6thrGFec72ZPluwYaA==
+"@umijs/runtime@3.5.23":
+  version "3.5.23"
+  resolved "https://registry.yarnpkg.com/@umijs/runtime/-/runtime-3.5.23.tgz#6c9a6df4b704022cc41dd3a6916595d3b344a44f"
+  integrity sha512-pRZNkaD3E0dowzJGlZNRlSsIwuE2B36Zij6MnZvUvkSkh9/4Zt1paxWu4AagLFVUsaPF0dkGeG/Ra8kjtUygTg==
   dependencies:
     "@types/react-router" "5.1.12"
     "@types/react-router-dom" "5.1.7"
