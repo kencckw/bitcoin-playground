@@ -313,17 +313,10 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.10.1", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.8.4":
-  version "7.14.0"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
-  integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
-"@babel/runtime@^7.7.6", "@babel/runtime@^7.7.7":
-  version "7.18.3"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.3.tgz#c7b654b57f6f63cf7f8b418ac9ca04408c4579f4"
-  integrity sha512-38Y8f7YUhce/K7RMwTp7m0uCumpv9hZkitCbBClqQIow1qSbCvGkcegKOXpEWCQLfWmevgRiWokZ1GkpfhbZug==
+"@babel/runtime@7.18.9", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.1", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.7.6", "@babel/runtime@^7.7.7", "@babel/runtime@^7.8.4":
+  version "7.18.9"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.9.tgz#b4fcfce55db3d2e5e080d2490f608a3b9f407f4a"
+  integrity sha512-lkqXDcvlFT5rvEjiu6+QYO+1GXrEHRo2LOtS7E4GtX5ESIZOgepqsZBVIj6Pv+a6zqsya9VCgiK1KAK4BvJDAw==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -1123,11 +1116,12 @@
     "@umijs/runtime" "3.5.21"
     react-router-config "5.1.1"
 
-"@umijs/renderer-react@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@umijs/renderer-react/-/renderer-react-4.0.0.tgz#a90db12fbc8dce9546b8eeed413d6ace772416a8"
-  integrity sha512-u7AZUNtiDAFphDfSk97gMIuhiq8GKfaUYXkrNEwRS5O46ZUFqTr4XSN4QSSAnu7zTq4i7SVsU+VPcsEzdepoKA==
+"@umijs/renderer-react@^4.0.17":
+  version "4.0.17"
+  resolved "https://registry.yarnpkg.com/@umijs/renderer-react/-/renderer-react-4.0.17.tgz#29eae0d8b6690e3cdfc322e35c4e1212793bca2c"
+  integrity sha512-D4lF2Mw+/f/RbTHMiRCkDINLrpmpxS+rI6xT8U65nmvv2BQBS6vS4kE6+iCwMOKFT+FCn9ZCSkCDGg4pczfVOQ==
   dependencies:
+    "@babel/runtime" "7.18.9"
     "@loadable/component" "5.15.2"
     history "5.3.0"
     react-router-dom "6.3.0"
