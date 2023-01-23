@@ -21,7 +21,7 @@
     ]
   },
   "dependencies": {
-    "@ant-design/icons": "^4.7.0",
+    "@ant-design/icons": "^5.0.1",
     "@umijs/plugin-antd": "^0.15.0",
     "@umijs/renderer-react": "^4.0.30",
     "ahooks": "^3.5.2",
