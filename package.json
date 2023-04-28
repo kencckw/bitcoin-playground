@@ -38,7 +38,7 @@
     "@types/jest": "^28.1.6",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^17.0.11",
-    "@umijs/test": "^3.5.20",
+    "@umijs/test": "^4.0.67",
     "lint-staged": "^12.3.5",
     "prettier": "^2.8.3",
     "typescript": "^5.0.2",
