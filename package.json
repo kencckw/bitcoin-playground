@@ -29,14 +29,14 @@
     "bip39": "^3.1.0",
     "bitcoinjs-lib": "^5.2.0",
     "umi": "^3.5.36",
-    "react": "17.x",
-    "react-dom": "17.x"
+    "react": "18.x",
+    "react-dom": "18.x"
   },
   "devDependencies": {
-    "react-test-renderer": "^17.0.2",
+    "react-test-renderer": "^18.2.0",
     "@types/react-test-renderer": "^17.0.1",
     "@types/jest": "^28.1.6",
-    "@types/react": "^18.0.9",
+    "@types/react": "^18.0.28",
     "@types/react-dom": "^17.0.11",
     "@umijs/test": "^3.5.20",
     "lint-staged": "^12.3.5",
